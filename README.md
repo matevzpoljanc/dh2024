@@ -29,9 +29,9 @@ pip install poetry
 poetry install
 ```
 
-# AI Code samples
-## Chat
-Sample chat directly using OpenAI's python library
+# AI Code examples
+## OpenAI client: chat, image, audio
+Sample chat, text-to-speech, speech-to-text and image generation directly using OpenAI's python library
 
 ## Marvin
 [Marvin](https://www.askmarvin.ai/welcome/what_is_marvin/) is a library which provides a very helpful abstraction for implmenting AI-based logic in Python.
