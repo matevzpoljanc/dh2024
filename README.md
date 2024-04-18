@@ -14,7 +14,7 @@ client = openai.OpenAI(api_key=TOKEN, base_url=BASE_URL)
 
 In case you don't have api key for our proxy, come to Sellestial's table and collect yours.
 
-Examples read key from env variable:
+Example code reads the key from env variable:
 ```
 export API_TOKEN=<you-token>
 ```
