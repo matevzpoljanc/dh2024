@@ -3,7 +3,7 @@
 Code samples to aid with AI
 
 ## Access
-You can access OpenAI's API by proxying your requests through our proxy server [https://openai-proxy.sellestial.com/api].
+You can access OpenAI's API by proxying your requests through our proxy server https://openai-proxy.sellestial.com/api.
 The easiest way to do this is to set ```base_url``` argument in **openai**'s client:
 
 ```
