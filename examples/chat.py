@@ -10,6 +10,8 @@ def main():
     Main function
     """
 
+    # OpenAI docs: https://platform.openai.com/docs/guides/text-generation
+
     client = openai.OpenAI(api_key=TOKEN, base_url=BASE_URL)
 
     model = "gpt-3.5-turbo"  # also available: "gpt-4-turbo"

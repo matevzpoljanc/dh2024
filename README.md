@@ -1,8 +1,10 @@
 # DragonHack 2024 code samples
 
-Code samples to aid with AI
+Code samples to aid with incorporating AI in your hacks
 
 ## Access
+
+### Proxy
 You can access OpenAI's API by proxying your requests through our proxy server.
 The easiest way to do this is to set ```base_url``` argument in **openai**'s client:
 
@@ -11,6 +13,8 @@ BASE_URL = "https://openai-proxy.sellestial.com/api"
 
 client = openai.OpenAI(api_key=TOKEN, base_url=BASE_URL)
 ```
+
+### API key for proxy
 
 In case you don't have api key for our proxy, come to Sellestial's table and collect yours.
 

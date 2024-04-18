@@ -24,6 +24,8 @@ def main():
     Main function
     """
 
+    # Marvin docs: https://www.askmarvin.ai/docs/text/transformation/
+
     signature = """
 John Doe
 Manager @ DragonHack
